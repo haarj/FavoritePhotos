@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RootViewController.h
 //  FavoritePhotos
 //
 //  Created by Justin Haar on 3/28/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface RootViewController : UIViewController
 
 @end
-

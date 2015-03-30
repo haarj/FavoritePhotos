@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		33A73DB31AC736EE00082DBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A73DB21AC736EE00082DBB /* main.m */; };
 		33A73DB61AC736EE00082DBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A73DB51AC736EE00082DBB /* AppDelegate.m */; };
-		33A73DB91AC736EE00082DBB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A73DB81AC736EE00082DBB /* ViewController.m */; };
+		33A73DB91AC736EE00082DBB /* PictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A73DB81AC736EE00082DBB /* PictureViewController.m */; };
 		33A73DBC1AC736EE00082DBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33A73DBA1AC736EE00082DBB /* Main.storyboard */; };
 		33A73DBE1AC736EE00082DBB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33A73DBD1AC736EE00082DBB /* Images.xcassets */; };
 		33A73DC11AC736EE00082DBB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33A73DBF1AC736EE00082DBB /* LaunchScreen.xib */; };
 		33A73DCD1AC736EE00082DBB /* FavoritePhotosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A73DCC1AC736EE00082DBB /* FavoritePhotosTests.m */; };
+		33A73DD81AC7558300082DBB /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A73DD71AC7558300082DBB /* Image.m */; };
+		33A73DDA1AC7642600082DBB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A73DD91AC7642600082DBB /* MapKit.framework */; };
+		33A73DDD1AC79CB600082DBB /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A73DDC1AC79CB600082DBB /* RootViewController.m */; };
+		33FC3F711AC8FFFB00EB3223 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33FC3F701AC8FFFB00EB3223 /* MapViewController.m */; };
+		33FC3F731AC911ED00EB3223 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33FC3F721AC911ED00EB3223 /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +37,22 @@
 		33A73DB21AC736EE00082DBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		33A73DB41AC736EE00082DBB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		33A73DB51AC736EE00082DBB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		33A73DB71AC736EE00082DBB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		33A73DB81AC736EE00082DBB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		33A73DB71AC736EE00082DBB /* PictureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureViewController.h; sourceTree = "<group>"; };
+		33A73DB81AC736EE00082DBB /* PictureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureViewController.m; sourceTree = "<group>"; };
 		33A73DBB1AC736EE00082DBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33A73DBD1AC736EE00082DBB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		33A73DC01AC736EE00082DBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		33A73DC61AC736EE00082DBB /* FavoritePhotosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FavoritePhotosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33A73DCB1AC736EE00082DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33A73DCC1AC736EE00082DBB /* FavoritePhotosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavoritePhotosTests.m; sourceTree = "<group>"; };
+		33A73DD61AC7558300082DBB /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		33A73DD71AC7558300082DBB /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
+		33A73DD91AC7642600082DBB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		33A73DDB1AC79CB500082DBB /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		33A73DDC1AC79CB600082DBB /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		33FC3F6F1AC8FFFB00EB3223 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		33FC3F701AC8FFFB00EB3223 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		33FC3F721AC911ED00EB3223 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33FC3F731AC911ED00EB3223 /* Social.framework in Frameworks */,
+				33A73DDA1AC7642600082DBB /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,8 @@
 		33A73DA41AC736EE00082DBB = {
 			isa = PBXGroup;
 			children = (
+				33FC3F721AC911ED00EB3223 /* Social.framework */,
+				33A73DD91AC7642600082DBB /* MapKit.framework */,
 				33A73DAF1AC736EE00082DBB /* FavoritePhotos */,
 				33A73DC91AC736EE00082DBB /* FavoritePhotosTests */,
 				33A73DAE1AC736EE00082DBB /* Products */,
@@ -83,8 +100,14 @@
 			children = (
 				33A73DB41AC736EE00082DBB /* AppDelegate.h */,
 				33A73DB51AC736EE00082DBB /* AppDelegate.m */,
-				33A73DB71AC736EE00082DBB /* ViewController.h */,
-				33A73DB81AC736EE00082DBB /* ViewController.m */,
+				33A73DDB1AC79CB500082DBB /* RootViewController.h */,
+				33A73DDC1AC79CB600082DBB /* RootViewController.m */,
+				33A73DB71AC736EE00082DBB /* PictureViewController.h */,
+				33A73DB81AC736EE00082DBB /* PictureViewController.m */,
+				33FC3F6F1AC8FFFB00EB3223 /* MapViewController.h */,
+				33FC3F701AC8FFFB00EB3223 /* MapViewController.m */,
+				33A73DD61AC7558300082DBB /* Image.h */,
+				33A73DD71AC7558300082DBB /* Image.m */,
 				33A73DBA1AC736EE00082DBB /* Main.storyboard */,
 				33A73DBD1AC736EE00082DBB /* Images.xcassets */,
 				33A73DBF1AC736EE00082DBB /* LaunchScreen.xib */,
@@ -219,7 +242,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33A73DB91AC736EE00082DBB /* ViewController.m in Sources */,
+				33A73DB91AC736EE00082DBB /* PictureViewController.m in Sources */,
+				33A73DDD1AC79CB600082DBB /* RootViewController.m in Sources */,
+				33A73DD81AC7558300082DBB /* Image.m in Sources */,
+				33FC3F711AC8FFFB00EB3223 /* MapViewController.m in Sources */,
 				33A73DB61AC736EE00082DBB /* AppDelegate.m in Sources */,
 				33A73DB31AC736EE00082DBB /* main.m in Sources */,
 			);
@@ -414,6 +440,7 @@
 				33A73DD21AC736EE00082DBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33A73DD31AC736EE00082DBB /* Build configuration list for PBXNativeTarget "FavoritePhotosTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +449,7 @@
 				33A73DD51AC736EE00082DBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
